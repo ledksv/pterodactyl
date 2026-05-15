@@ -1,6 +1,6 @@
 # Pterodactyl — HackTheBox
 
-**Platform:** HackTheBox | **OS:** openSUSE | **Difficulty:** Hard
+**Platform:** HackTheBox
 
 ## Enumeration
 
@@ -19,4 +19,3 @@ Port 80 redirects to `http://pterodactyl.htb/`. Added to `/etc/hosts` and enumer
 This machine is still active on HackTheBox. The full writeup will be published upon retirement.
 
 Full walkthrough available at [l3dsec.vercel.app](https://l3dsec.vercel.app) upon retirement.
-
