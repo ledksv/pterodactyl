@@ -16,8 +16,10 @@ PORT   STATE SERVICE VERSION
 
 Port 80 redirects to `http://pterodactyl.htb/`. Added to `/etc/hosts` and proceeded with further enumeration.
 
-## 🔒 Walkthrough Locked
+## Full Walkthrough
 
-This machine is still active on HackTheBox. Full writeup will be published on [l3dsec.com](https://l3dsec.com) upon retirement.
+Full writeup published at [Pterodactyl — L3dSec](https://l3dsec.vercel.app/walkthroughs/pterodactyl-htb)
+
+---
 
 > ⚠️ For educational purposes only. Only test systems you own or have explicit written permission to test.
