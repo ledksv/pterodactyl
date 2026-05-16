@@ -2,6 +2,8 @@
 
 **Platform:** HackTheBox
 
+**Status: Active — walkthrough locked pending machine retirement.**
+
 ## Enumeration
 
 ```
@@ -12,10 +14,10 @@ PORT   STATE SERVICE VERSION
 80/tcp open  http    nginx 1.21.5
 ```
 
-Port 80 redirects to `http://pterodactyl.htb/`. Added to `/etc/hosts` and enumerated further.
+Port 80 redirects to `http://pterodactyl.htb/`. Added to `/etc/hosts` and proceeded with further enumeration.
 
 ## 🔒 Walkthrough Locked
 
-This machine is still active on HackTheBox. The full writeup will be published upon retirement.
+This machine is still active on HackTheBox. Full writeup will be published on [l3dsec.com](https://l3dsec.com) upon retirement.
 
-Full walkthrough available at [l3dsec.vercel.app](https://l3dsec.vercel.app) upon retirement.
+> ⚠️ For educational purposes only. Only test systems you own or have explicit written permission to test.
