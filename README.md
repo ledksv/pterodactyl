@@ -1,25 +1,13 @@
 # Pterodactyl — HackTheBox
 
-**Platform:** HackTheBox
+**Platform:** HackTheBox | **OS:** Linux
 
-**Status: Active — walkthrough locked pending machine retirement.**
+Full walkthrough published on [l3dsec.com](https://l3dsec.com).
 
-## Enumeration
+## Summary
 
-```
-nmap -sV -sC -p- <TARGET_IP>
+Pterodactyl Panel path traversal (CVE-2025-49132) leaks the Laravel app key and database credentials unauthenticated. Cracking the extracted hash gives SSH access. Privilege escalation chains PAM environment poisoning via CVE-2025-6018 (polkit bypass) with an XFS resize race condition via CVE-2025-6019 to land a SUID root shell.
 
-PORT   STATE SERVICE VERSION
-22/tcp open  ssh     OpenSSH 9.6
-80/tcp open  http    nginx 1.21.5
-```
-
-Port 80 redirects to `http://pterodactyl.htb/`. Added to `/etc/hosts` and proceeded with further enumeration.
-
-## Full Walkthrough
-
-Full writeup published at [Pterodactyl — L3dSec](https://l3dsec.vercel.app/walkthroughs/pterodactyl-htb)
-
----
+**Tags:** CVE-2025-49132 · Path Traversal · Config Disclosure · CVE-2025-6018 · PAM Poisoning · Polkit Bypass · CVE-2025-6019 · XFS Race Condition
 
 > ⚠️ For educational purposes only. Only test systems you own or have explicit written permission to test.
